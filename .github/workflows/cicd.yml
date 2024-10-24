@@ -26,6 +26,7 @@ jobs:
     steps:
       - name: Pull Image from Docker Hub
         run: docker pull brotin003/experiencezone:latest
+        
 
       - name: Delete Old container
         run: docker rm -f reactcontainer
